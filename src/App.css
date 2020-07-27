@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+/* GLOBAL STYLES */
+body {
+  background: #333;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h2{
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+.App-logo {
+  height: 40vmin;
+  margin-top: 20px;
+  pointer-events: none;
+  border-radius: 50%
+}
+
+img{
+margin: 10px;
+}
+
+.ppn{
+width: 100px;
+  height: 140px;
+}
+.ppa{
+width: 130px;
+  height: 140px;
+}
+
+.App-header {
+  background: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+.App-link {
+  font-style: italic;
+  background: black;
+  width: 100px;
+  height: 50px;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+.hey{
+  font-size: 12pt;
+}
+.yey{
+  margin-right: 5px;
+}
+
